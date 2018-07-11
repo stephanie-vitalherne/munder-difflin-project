@@ -12,45 +12,62 @@
 }
 
 #logo{
-  border: 1px solid red;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+#logo:hover{
+  text-decoration: none;
 }
 
 .navRight{
   display: inline-flex;
   float: right;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .navRight a, li{
   list-style-type: none;
+  margin: 0 5px;
+  color: #444;
 }
+
 .navRight a:hover{
+  text-decoration: none;
+}
+
+#navBar a, h1{
+  color: #444;
+}
+#navBar a, h1:hover{
   text-decoration: none;
 }
 /* ====================== */
 /* MOTTO */
 #motto-center{
-  padding-top: 250px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/* the above code allows you to have this type of information to be perfectly center in the page. the usage of percentages allows for pin pointing the center */
 }
 
-#mottoBtn{
-  margin-left: 575px;
-}
 
 #motto-section{
   height: 630px !important;
 }
 
 #motto-section h2{
-  color: #fff;
+  color: #444;
 }
-
 /* ====================== */
 /* MISSION */
 #missionImg{
   width: auto;
   height: auto;
+  margin-left: 10px;
 }
 
 #mission-section{

@@ -1,29 +1,28 @@
 /* WHOLE WEBSITE */
   section{
-    height: 800px;
+    height: 500px;
   }
-
 /* ====================== */
 
 /* NAVBAR */
-h1{
-margin-right: 250px;
-}
-
 #navBar{
   background-color: #34aaac;
+  display: flex;
+  justify-content: space-between;
 }
 
 #logo{
   border: 1px solid red;
-  margin-right: 800px;
 }
 
 .navRight{
+  display: inline-flex;
   float: right;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
-.navRight a{
+.navRight a, li{
   list-style-type: none;
 }
 .navRight a:hover{
@@ -31,7 +30,36 @@ margin-right: 250px;
 }
 /* ====================== */
 /* MOTTO */
-.jumbotron{
-  height: 400px;
+#motto-center{
+  padding-top: 100px;
+}
+
+#mottoBtn{
+
+}
+
+#motto-section{
+  height: 630px !important;
+}
+
+#motto-section h2{
+  color: #fff;
+}
+
+/* ====================== */
+/* MISSION */
+#missionImg{
+  width: auto;
+  height: auto;
+}
+
+#mission-section{
+  margin-top: 150px;
+  height: 450px !important;
+}
+
+#mission-section p{
+  float: right;
+  word-wrap: normal;
 }
 /* ====================== */

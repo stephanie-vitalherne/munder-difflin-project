@@ -1,0 +1,37 @@
+/* WHOLE WEBSITE */
+  section{
+    height: 800px;
+  }
+
+/* ====================== */
+
+/* NAVBAR */
+h1{
+margin-right: 250px;
+}
+
+#navBar{
+  background-color: #34aaac;
+}
+
+#logo{
+  border: 1px solid red;
+  margin-right: 800px;
+}
+
+.navRight{
+  float: right;
+}
+
+.navRight a{
+  list-style-type: none;
+}
+.navRight a:hover{
+  text-decoration: none;
+}
+/* ====================== */
+/* MOTTO */
+.jumbotron{
+  height: 400px;
+}
+/* ====================== */

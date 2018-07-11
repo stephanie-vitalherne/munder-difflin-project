@@ -31,11 +31,11 @@
 /* ====================== */
 /* MOTTO */
 #motto-center{
-  padding-top: 100px;
+  padding-top: 250px;
 }
 
 #mottoBtn{
-
+  margin-left: 575px;
 }
 
 #motto-section{
@@ -62,4 +62,7 @@
   float: right;
   word-wrap: normal;
 }
+/* ====================== */
+/* PRODUCT */
+
 /* ====================== */

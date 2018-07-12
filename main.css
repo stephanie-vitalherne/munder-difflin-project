@@ -61,6 +61,11 @@
 
 #motto-section h2{
   color: #444;
+  margin-bottom: 30px;
+}
+#motto-section a:hover{
+  background-color: /*#ab8e9a #ac998c*/ #a18d43;
+  border-color: /*#ab8e9a #ac998c*/ #a18d43;
 }
 /* ====================== */
 /* MISSION */
@@ -83,5 +88,75 @@
 /* PRODUCT */
 #product-section{
  background-color: green;
+}
+
+.center-page{
+  margin: 0 auto;
+  float: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.sku-name{
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+
+.retail-price{
+  text-decoration: line-through !important;
+  font-size: 18px;
+  color: #d1d1d1;
+}
+
+.monthly-breakdown{
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.billed-amount{
+  margin: 0 auto;
+  width: 100%;
+  font-size: 15px;
+}
+
+.savings{
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.pricing .cta{
+  border-color: pink;
+  background-color: pink;
+  color: #fff;
+  width: 75%;
+  padding: 5px 0;
+  border: 2px solid pink;
+  font-size: 22px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.pricing span{
+  display: block;
+  background-color: #fff;
+}
+
+.pricing{
+  background-color: #333;
+}
+
+.pricing a.sku.year{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.pricing a:hover{
+  text-decoration: none;
 }
 /* ====================== */

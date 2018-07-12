@@ -8,8 +8,8 @@
 #logo{
   margin-left: 15px;
   margin-top: 2px;
-  font-family: 'Coda Caption', sans-serif;
-  letter-spacing: -3px;
+  font-family: 'Impact', sans-serif;
+  letter-spacing: -1px;
   font-size: 400;
 }
 
@@ -28,6 +28,7 @@
   list-style-type: none;
   margin: 0 5px;
   color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navRight a:hover{
@@ -100,6 +101,10 @@
   transition-duration: 2.5s;
 }
 
+#section-two section{
+
+  box-shadow: 0 2px 1px #888;
+}
 /* ====================== */
 /* PRODUCT */
 #product-section{
@@ -113,6 +118,10 @@
 }
 #product-section #plan{
   margin-top: 20px;
+  font-family: 'Impact', sans-serif;
+  letter-spacing: -1px;
+  font-size: 400;
+  color: #444;
 }
 
 .center-page{

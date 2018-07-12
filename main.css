@@ -6,7 +6,7 @@
 
 /* NAVBAR */
 #navBar{
-  background-color: #34aaac;
+  background-color: /*#ab8e9a #ac998c*/ #a18d43;
   display: flex;
   justify-content: space-between;
 }
